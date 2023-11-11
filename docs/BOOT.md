@@ -69,6 +69,8 @@ If your Mac is looping back into the beginning of the setup after the first rebo
 
 ::: warning
 
+Do not select a TimeMachine backup ** otherwise you will not able to boot after the restauration. Wait for post-install and either use the Migration Assitant (an Apple application included into the OS) or mount the TimeMachine as a disk and restore what you need. Take care to avoid restoring apps or system configuration which may be harmful.
+
 **MacBookPro11,3 Note**: When booting macOS Monterey, you'll need to boot into safe mode if acceleration patches are not installed yet. [Otherwise, you'll hit a black screen due to missing NVIDIA drivers.](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/522) Safe Mode can be entered by holding `Shift + Enter` when selecting macOS Monterey in OCLP's Boot Menu.
 
 :::
